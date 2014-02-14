@@ -1,0 +1,7 @@
+; @author: Andy "Biolithic" Martha http://drupal.org/user/1204604
+name = readingonthebeachhelper
+description = Reading On The Beach helper is glue that makes Readingonthebeach theme and ebookbraintree/ebookstripe modules work nicely
+package = PAYMENTS
+core = 7.x
+configure = admin/config/services/readingonthebeachhelper
+dependencies[] = node_view_permissions
