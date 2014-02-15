@@ -1,6 +1,6 @@
 /**
  * @file
- * EbookBraintree default CSS
+ * basic CSS to hide the non-important things and show the important things
  *
  * @author: Andy "Biolithic" Martha
  *
@@ -11,12 +11,18 @@
 display:none;
 }
 
-.node-readmore
-{
-display:none !important;    
-}
 
 p > a
 {
 line-height:300%;
+}
+
+.nextchapter
+{
+background:transparent; position:fixed; bottom: 72px; right: 0px; width:7%; height:65px; font-size:3em; text-align:center; text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);    
+}
+
+.previouschapter
+{
+background:transparent; position:fixed; bottom: 72px; left: 0px; width:7%; height:65px; font-size:3em; text-align:center; text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);    
 }
