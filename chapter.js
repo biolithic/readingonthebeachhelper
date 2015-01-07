@@ -9,6 +9,7 @@
     var chaptertitle = hashes[5] + " " + hashes[6];
     $(".page-header").html(chaptertitle).css("textTransform", "capitalize");
     $("h2 a").css("display", "none");
+    $("#buynowbutton").css("display", "none");
 
     // show the previous and next chapter links
     var getthepage = document.URL;
